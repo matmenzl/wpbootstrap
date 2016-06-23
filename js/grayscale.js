@@ -34,6 +34,13 @@ jQuery('.navbar-collapse ul li a').click(function() {
   }
 });
 
+jQuery(function() {
+    jQuery('.nav a').on('click', function(){ 
+        if(jQuery('.navbar-toggle').css('display') !='none'){
+            jQuery(".navbar-toggle").trigger( "click" );
+        }
+    });
+});
 
 
 // Google Maps Scripts
