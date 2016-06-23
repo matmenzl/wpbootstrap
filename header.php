@@ -58,37 +58,6 @@
             <!-- /.container -->
         </nav>
 
-
-
-
-<!--     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand page-scroll" href="#page-top"><?php bloginfo( ' url' ); ?> </a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse navbar-right navbar-main-collapse">
-          <ul class="nav navbar-nav">
-                              <!-- Hidden li included to remove active class from about link when scrolled up past about section --><!--
-                              <li class="hidden">
-                                  <a href="#page-top"></a>
-                              </li>
-                              <li>
-                                  <a class="page-scroll" href="#events">Events</a>
-                              </li>
-                              <li>
-                                  <a class="page-scroll" href="#about">Öffnungszeiten</a>
-                              </li>
-                              <li>
-                                  <a class="page-scroll" href="#contact">Kontakt</a>
-                              </li>
-                          </ul> 
-                    -->
          <!--  
         <?php 
           $args = array(
