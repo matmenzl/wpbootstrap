@@ -140,17 +140,28 @@ a:focus {
     }
 }
 
-.intro {
-    height: 100%;
-    padding: 100px 0;
-    text-align: center;
-    color: #fff;
-    background: url(images/raketebar_logo.png) no-repeat center center;
-    background-color: #4caf50;
+
+.jumbotron .container {
+    background: url(images/fliprakete2.jpg) no-repeat;
+    min-width: 100%;
+    min-height: 100%;
     background-size:cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
+}
+
+.intro {
+/*    height: 100%;
+    padding-top: 100px;*/
+    text-align: center;
+/*    color: #fff;
+    background: url() no-repeat center center;
+    background-color: #4caf50;
+    background-size:cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;*/
 }
 
 .intro .intro-body {
@@ -166,7 +177,7 @@ a:focus {
     font-size: 18px;
 }
 
-@media(min-width:768px) {
+/*@media(min-width:768px) {
     .intro {
         height: 100%;
         padding: 0;
@@ -179,7 +190,7 @@ a:focus {
     .intro .intro-body .intro-text {
         font-size: 26px;
     }
-}
+}*/
 
 .btn-circle {
     width: 70px;
@@ -289,6 +300,9 @@ a:focus {
     #map {
         height: 400px;
         margin-top: 150px;
+    }
+    .jumbotron .container {
+    padding-top:200px;
     }
 }
 
