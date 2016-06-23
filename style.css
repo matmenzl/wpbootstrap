@@ -40,3 +40,7 @@ span.icon-bar {
   background-color:white;
   color:white;
 }
+
+a.btn.btn-circle.page-scroll {
+  margin-bottom:20px;
+}

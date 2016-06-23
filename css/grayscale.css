@@ -288,6 +288,10 @@ a:focus {
     margin-top: 50px;
 }
 
+.jumbotron .container {
+padding-top:500px;
+}
+
 @media(min-width:767px) {
     .content-section {
         padding-top: 100px;
@@ -302,7 +306,7 @@ a:focus {
         margin-top: 150px;
     }
     .jumbotron .container {
-    padding-top:200px;
+    padding-top:500px;
     }
 }
 
