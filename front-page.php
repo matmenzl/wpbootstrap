@@ -10,7 +10,11 @@
 
       <?php endwhile; endif; ?>
 
-        <a href="#about" class="btn btn-circle page-scroll">
+      <div id="logo_wrapper">
+        <img src="wp-content/themes/wpbootstrap/css/images/raketeschwarz_blank.png" border="0" alt="Null">
+      </div>
+
+        <a href="#events" class="btn btn-circle page-scroll">
             <i class="fa fa-angle-double-down animated"></i>
         </a>
 

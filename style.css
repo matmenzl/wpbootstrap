@@ -22,6 +22,13 @@ Use it to make something cool, have fun, and share what you've learned with othe
   background-color:black;
 }*/
 
+
+#logo_wrapper img{
+  padding-top:150px;
+  max-width:100%;
+  margin: auto 0;
+}
+
 .jumbotron {
   padding:0px;
 }
