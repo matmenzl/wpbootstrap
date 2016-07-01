@@ -1,7 +1,7 @@
 </div> <!-- /container -->
 
 <footer>
-<h4>Die Raketebar ist Gemeinschaftsprojekte von</h4>
+<h5>Die Raketebar ist ein Gemeinschaftsprojekt von</h5>
 <div class="specialBackground">
   <div class="container">
     <a href="http://www.gz-zh.ch/gz-bachwiesen/gz-bachwiesen/" target="_blank"><img src="wp-content/themes/wpbootstrap/css/images/bachwiesen_transparent.png"  border="0" alt="GZ Bachwiesen"></a>

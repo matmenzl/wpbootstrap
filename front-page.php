@@ -11,10 +11,10 @@
       <?php endwhile; endif; ?>
 
       <div id="logo_wrapper">
-        <img src="wp-content/themes/wpbootstrap/css/images/raketeschwarz_blank.png" border="0" alt="Null">
+        <img src="wp-content/themes/wpbootstrap/css/images/raketebar_logo_weiss.png" border="0" alt="Null">
       </div>
 
-        <a href="#events" class="btn btn-circle page-scroll">
+        <a href="#info" class="btn btn-circle page-scroll">
             <i class="fa fa-angle-double-down animated"></i>
         </a>
 
@@ -23,6 +23,16 @@
 
     </div>
 
+    <!-- Info Section -->
+    <section id="info" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-12">
+
+              <?php if ( dynamic_sidebar( 'front-info' ) ); ?>
+
+            </div>
+        </div>
+    </section>
 
 
 
@@ -31,19 +41,20 @@
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
-          
+          <div class="thumbnail equalize">
           <?php if ( dynamic_sidebar ( ' front-left' ) ); ?>
-
+          </div>
         </div>
         <div class="col-md-4">
-
-        <?php if ( dynamic_sidebar ( ' front-center' ) ); ?>
-
+          <div class="thumbnail equalize">
+            <?php if ( dynamic_sidebar ( ' front-center' ) ); ?>
+          </div>
        </div>
         <div class="col-md-4">
+        <div class="thumbnail equalize">
 
         <?php if ( dynamic_sidebar ( ' front-right' ) ); ?>
-
+      </div>
       </div>
     </div>
     </div>
@@ -72,7 +83,7 @@
 
                 <ul class="list-inline banner-social-buttons">
                     <li>
-                        <a href="https://facebook.com/hochneun" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                        <a href="https://facebook.com/raketebar" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
                     </li>
                 </ul>
             </div>

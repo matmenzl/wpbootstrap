@@ -194,3 +194,11 @@ function init() {
         icon: image
     });
 }
+
+jQuery(document).ready(function() {
+    var maxHeight = 0;          
+    jQuery(".equalize").each(function(){
+      if (jQuery(this).height() > maxHeight) { maxHeight = jQuery(this).height(); }
+    });         
+    jQuery(".equalize").height(maxHeight);
+  }); 

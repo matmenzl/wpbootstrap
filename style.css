@@ -65,6 +65,16 @@ footer img {
 }
 
 .specialBackground{
-  background-color: hsla(0,0%,41%,1);
-  /* replace with your own background settings */
+  background-color:#9e9e9e;
+}
+
+.well {
+  background-color: #c39023;
+  border:none;
+  border-radius: 0px;
+}
+
+.thumbnail.equalize {
+  background-color:transparent;
+  border:none;
 }

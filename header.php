@@ -43,6 +43,9 @@
                             <a href="#page-top"></a>
                         </li>
                         <li>
+                            <a class="page-scroll" href="#info">Über die Raketebar</a>
+                        </li>
+                        <li>
                             <a class="page-scroll" href="#events">Events</a>
                         </li>
                         <li>
