@@ -10,12 +10,12 @@
 
       <?php endwhile; endif; ?>
 
-      <div id="logo_wrapper">
+      <div id="logo_wrapper" class="animated lightSpeedIn">
         <img src="wp-content/themes/wpbootstrap/css/images/raketebar_logo_weiss.png" border="0" alt="Null">
       </div>
 
         <a href="#info" class="btn btn-circle page-scroll">
-            <i class="fa fa-angle-double-down animated"></i>
+            <i class="animated bounce fa fa-angle-double-down"></i>
         </a>
 
 

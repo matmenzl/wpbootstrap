@@ -58,8 +58,6 @@ footer {
 
 footer img {
   text-align: center;
-  float: left;
-  width: 50%;
   padding: 0 20px;
   background-attachment: fixed;
 }
@@ -77,4 +75,24 @@ footer img {
 .thumbnail.equalize {
   background-color:transparent;
   border:none;
+}
+
+
+.fa.fa-angle-double-down {
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite; 
+  -ms-animation-iteration-count: infinite; 
+  -o-animation-iteration-count: infinite;
+  -webkit-animation-delay: 2s; 
+  -moz-animation-delay: 2s; 
+  -ms-animation-delay: 2s; 
+  -o-animation-delay: 2s; 
+}
+
+img.bachwiesenimage {
+  width: 50%;
+}
+
+img.hochneunimage {
+  width: 15%;
 }
