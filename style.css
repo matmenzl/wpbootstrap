@@ -96,3 +96,13 @@ img.bachwiesenimage {
 img.hochneunimage {
   width: 15%;
 }
+
+@media screen and (max-width: 320px) {
+  .gallery {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+
+

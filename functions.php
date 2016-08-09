@@ -34,6 +34,8 @@ add_action( 'wp_enqueue_scripts', 'theme_js' );
 add_filter( 'show_admin_bar', '__return_false');
 
 add_theme_support ( 'menus' );
+add_theme_support ( 'post-thumbnails' );
+
 
 function register_theme_menus() {
   register_nav_menus(
@@ -63,6 +65,7 @@ create_widget( 'Front Page Info', 'front-info', 'Displays info on the homepage' 
 create_widget( 'Front Page Left', 'front-left', 'Displays on the left of the homepage' );
 create_widget( 'Front Page Center', 'front-center', 'Displays in the center of the homepage' );
 create_widget( 'Front Page Right', 'front-right', 'Displays on the right of the homepage' );
+create_widget( 'Front Page Gallery', 'front-gallery', 'Displays gallery on homepage' );
 
 create_widget( 'Front Page Contact', 'front-contact', 'Displays contact on the homepage' );
 create_widget( 'Front Page About', 'front-about', 'Displays about on the homepage' );
