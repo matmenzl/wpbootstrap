@@ -65,7 +65,6 @@
     <section id="gallery" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-12">
-
               <?php if ( dynamic_sidebar( 'front-gallery' ) ); ?>
 
             </div>

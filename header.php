@@ -49,6 +49,9 @@
                             <a class="page-scroll" href="#events">Events</a>
                         </li>
                         <li>
+                            <a class="page-scroll" href="#gallery">Gallerie</a>
+                        </li>
+                        <li>
                             <a class="page-scroll" href="#about">Öffnungszeiten</a>
                         </li>
                         <li>

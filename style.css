@@ -104,5 +104,8 @@ img.hochneunimage {
   }
 }
 
+.carousel-inner>.item>a>img {
+  display: inline-block;
+}
 
 
