@@ -43,13 +43,13 @@
                             <a href="#page-top"></a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#info">Über die Raketebar</a>
+                            <a class="page-scroll" href="#info">Über die Rakete-Bar</a>
                         </li>
                         <li>
                             <a class="page-scroll" href="#events">Events</a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#gallery">Gallerie</a>
+                            <a class="page-scroll" href="#gallery">Galerie</a>
                         </li>
                         <li>
                             <a class="page-scroll" href="#about">Öffnungszeiten</a>
