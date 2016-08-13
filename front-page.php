@@ -41,20 +41,19 @@
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
-          <div class="thumbnail equalize">
-          <?php if ( dynamic_sidebar ( ' front-left' ) ); ?>
+          <div class="thumbnail">
+            <?php if ( dynamic_sidebar ( ' front-left' ) ); ?>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="thumbnail equalize">
+          <div class="thumbnail">
             <?php if ( dynamic_sidebar ( ' front-center' ) ); ?>
           </div>
        </div>
         <div class="col-md-4">
-        <div class="thumbnail equalize">
-
-        <?php if ( dynamic_sidebar ( ' front-right' ) ); ?>
-      </div>
+          <div class="thumbnail">
+            <?php if ( dynamic_sidebar ( ' front-right' ) ); ?>
+          </div>
       </div>
     </div>
     </div>

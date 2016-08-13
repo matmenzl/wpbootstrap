@@ -16,6 +16,16 @@ function collapseNavbar() {
 jQuery(window).scroll(collapseNavbar);
 jQuery(document).ready(collapseNavbar);
 
+// same height of bootstrap thumbnail class
+jQuery(document).ready(function() {
+  var maxHeight = 0;            
+  jQuery(".thumbnail").each(function(){
+    if (jQuery(this).height() > maxHeight) { maxHeight = jQuery(this).height(); }
+  });           
+  jQuery(".thumbnail").height(maxHeight);
+});
+
+
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 jQuery(function() {
     jQuery('a.page-scroll').bind('click', function(event) {

@@ -108,4 +108,27 @@ img.hochneunimage {
   display: inline-block;
 }
 
+.thumbnail {
+  border-color: white //#1d9b6c;
+  background-color: transparent;
+  border-radius: 0px;
+  border:none;
+}
+
+.btn-primary, .btn-info {
+    background: #1d9b6c;
+    color: #ffffff;
+    border-color: #1d9b6c;
+}
+
+.btn-primary:hover, .btn-info:hover {
+    background: white;
+    color: #1d9b6c;
+    border-color: #1d9b6c;
+}
+
+ul {
+  padding:0px;
+  list-style:none;
+}
 
