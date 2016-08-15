@@ -33,10 +33,6 @@
             </div>
         </div>
     </section>
-
-
-
-
     <div id="events" class="container">
       <!-- Example row of columns -->
       <div class="row">
@@ -57,9 +53,6 @@
       </div>
     </div>
     </div>
-
-
-
     <!-- gallery -->
     <section id="gallery" class="container content-section text-center">
         <div class="row">
